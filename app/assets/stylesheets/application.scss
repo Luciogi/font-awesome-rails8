@@ -1,2 +1,8 @@
 // Sassy
+
+// overwrite font path
+@function font-path($file) {
+  @return $file;
+}
+
 @import "font-awesome";
